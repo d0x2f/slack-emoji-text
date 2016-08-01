@@ -30,7 +30,7 @@ public class EmojiTextBot extends Bot
         
         letters.put(' ', "0\n0\n0\n0\n0");
         letters.put('A', "111\n101\n111\n101\n101");
-        letters.put('B', "110\n101\n110\n101\n110");
+        letters.put('B', "111\n101\n110\n101\n111");
         letters.put('C', "111\n100\n100\n100\n111");
         letters.put('D', "110\n101\n101\n101\n110");
         letters.put('E', "111\n100\n111\n100\n111");
