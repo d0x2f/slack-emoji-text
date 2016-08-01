@@ -1,5 +1,4 @@
 # Emoji Text!
-### For Slack
 
 Display text as a mosaic of emojis.
 
