@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>me.d0x2f.slackemojitext</groupId>
+	<artifactId>slackemojitext</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>Emoji Text</name>
+	<description>Display text as a mosaic of emojis.</description>
+	<url>https://github.com/d0x2f/slack-emoji-text</url>
+	
+	<developers>
+		<developer>
+			<id>d0x2f</id>
+			<name>Dylan</name>
+			<email>dylan at dyl.dog</email>
+		</developer>
+	</developers>
+	
+	<licenses>
+		<license>
+			<name>GPLv3 License</name>
+			<url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+		</license>
+	</licenses>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.3.5.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+	    	<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+	
+	<dependencies>
+		<dependency>
+		    <groupId>com.github.ramswaroop</groupId>
+		    <artifactId>botkit</artifactId>
+		    <version>botkit-1.0.0</version>
+		</dependency>
+	</dependencies>
+	
+</project>
