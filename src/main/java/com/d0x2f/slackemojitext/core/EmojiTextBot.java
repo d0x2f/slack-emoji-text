@@ -69,7 +69,7 @@ public class EmojiTextBot extends Bot
         return this;
     }
 
-    @Controller(events = {EventType.DIRECT_MENTION, EventType.DIRECT_MESSAGE}, pattern = "(.{1,}) (:[a-zA-Z_]{1,}:) (:[a-zA-Z_]{1,}:)")
+    @Controller(events = {EventType.DIRECT_MENTION, EventType.DIRECT_MESSAGE}, pattern = "(.{1,}) (:[a-zA-Z0-9_]{1,}:) (:[a-zA-Z0-9_]{1,}:)")
     public void onReceiveDM(WebSocketSession session, Event event, Matcher matcher)
     {
     	//Remove the initial @emojibot: or <@SOMEID>: from the DM string
